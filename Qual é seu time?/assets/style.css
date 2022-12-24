@@ -13,6 +13,14 @@ section {
     background-color: beige;
 }
 
+div {
+    text-align: center;
+}
+
+img {
+    padding-top: 20px;
+}
+
 footer {
     text-align: center;
     background-color: black;
