@@ -14,9 +14,10 @@ function calculaTime(){
         img.setAttribute('src','assets/imagens/galo.jpg');
         
     }else{
-        alert('outro');
+        alert('Cruzeiro');
+        trocaFoto.setAttribute('src','assets/imagens/cruzeiro.jpeg')
+        img.setAttribute('src','assets/imagens/cruzeiro2.jpeg');
     }
-    
     fotoTime.style.textAlign='center'
     fotoTime.appendChild(img);
 }
